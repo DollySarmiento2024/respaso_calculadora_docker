@@ -1,0 +1,6 @@
+services:   
+  php:     
+    image: dollysarmiento2024/respaso_calculadora_docker:v1    
+    container_name: contenedorMiAppRepasoCalculadora     
+    ports: 
+      - "8080:80"
